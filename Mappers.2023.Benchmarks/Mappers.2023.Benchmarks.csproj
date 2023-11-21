@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Mappers._2023.Benchmarks</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.13.10" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mappers.2023.AutoMapper\Mappers.2023.AutoMapper.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Dtos\Mappers.2023.Dtos.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Manual\Mappers.2023.Manual.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Mapperly\Mappers.2023.Mapperly.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Mapster\Mappers.2023.Mapster.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Models\Mappers.2023.Models.csproj" />
+      <ProjectReference Include="..\Mappers.2023.TestData\Mappers.2023.TestData.csproj" />
+      <ProjectReference Include="..\Mappers.2023.TinyMapper\Mappers.2023.TinyMapper.csproj" />
+    </ItemGroup>
+
+</Project>

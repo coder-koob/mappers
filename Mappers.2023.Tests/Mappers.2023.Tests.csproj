@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Mappers._2023.Tests</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoFixture" Version="4.18.0" />
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+      <PackageReference Include="Bogus" Version="34.0.2" />
+      <PackageReference Include="ExpressionDebugger" Version="2.2.1" />
+      <PackageReference Include="FluentAssertions" Version="6.12.0" />
+      <PackageReference Include="Mapster" Version="7.4.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+      <PackageReference Include="Moq" Version="4.20.69" />
+      <PackageReference Include="xunit" Version="2.6.2" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.5.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mappers.2023.Dtos\Mappers.2023.Dtos.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Models\Mappers.2023.Models.csproj" />
+      <ProjectReference Include="..\Mappers.2023.Services\Mappers.2023.Services.csproj" />
+    </ItemGroup>
+
+</Project>
